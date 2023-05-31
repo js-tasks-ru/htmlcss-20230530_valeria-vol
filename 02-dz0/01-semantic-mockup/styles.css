@@ -1,0 +1,40 @@
+* {
+  color: white !important;
+
+}
+
+header h1 { 
+
+  background-color: red;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+
+nav {
+
+  background-color: orange;
+  text-align: center;
+  margin: 0;
+  height: 40px;
+  font-size: 1.5rem;
+}
+
+main {
+  background-color: green;
+  padding-top: 1px;
+}
+
+article {
+  background-color: blue;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+footer {
+  background-color: violet;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
