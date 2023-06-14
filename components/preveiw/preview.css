@@ -1,0 +1,10 @@
+.preview {
+  min-height: 1036px;
+}
+
+.preview__main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
