@@ -1,1 +1,50 @@
 /* Стилизация аккордеона */
+
+.accordion__item {
+  border: 1px solid #ACB5BD;
+  border-radius: 8px;
+
+  display: block;
+  overflow: hidden;
+  padding: 24px 32px;
+  margin-bottom: 8px;
+}
+
+.accordion__item[open] {
+  padding-bottom: 32px
+}
+
+.accordion__item[open] .accordion__icon {
+  transform: rotate(180deg);
+}
+
+.accordion__item:last-child {
+  margin-bottom: 0;
+}
+
+.accordion__summary {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #212429;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
+  display: none;
+}
+
+.accordion__body {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #495057;
+  margin-top: 16px;
+}
