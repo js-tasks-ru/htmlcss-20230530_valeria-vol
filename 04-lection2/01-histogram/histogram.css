@@ -38,8 +38,6 @@
 .histogram__chart {
   height: 50px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: flex-end;
   margin-top: 39px;
   gap: 1px;
