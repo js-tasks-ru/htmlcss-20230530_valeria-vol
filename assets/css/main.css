@@ -1,4 +1,11 @@
 @import '../fonts/fonts.css';
+@import './normalize.css';
+@import '../../components/page/page.css';
+@import '../../components/header/header.css';
+@import '../../components/wrapper/wrapper.css';
+@import '../../components/preveiw/preview.css';
+@import '../../components/footer/footer.css';
+
 
 :root {
     --white: #ffffff;
@@ -20,6 +27,11 @@
 
     --primary-hover: #2342C0;
     --secondary-hover: #5028C6;
+}
+
+body, html {
+  background-color: #F9FAFC;
+  min-height: 100vh;
 }
 
 * {

@@ -1,0 +1,8 @@
+.preview {
+  min-height: 1036px;
+}
+
+.preview__main {
+  flex-wrap: wrap;
+  gap: 30px;
+}
