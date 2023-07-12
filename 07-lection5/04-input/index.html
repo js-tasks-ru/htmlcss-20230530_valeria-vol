@@ -1,11 +1,121 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="./input.css">
+</head>
+
+<body>
+  <div class="form">
+    <label class="form__label">Label</label>
+    <div class="form__control">
+      <input type="text" placeholder="Placeholder" class="form__input" />
+
+      <svg width="350" height="56" viewBox="0 0 350 56" fill="none" class="form__icon">
+        <path
+          d="M8 0.5H342C346.142 0.5 349.5 3.85786 349.5 8V48C349.5 52.1421 346.142 55.5 342 55.5H8C3.85786 55.5 0.5 52.1421 0.5 48V8C0.5 3.85786 3.85786 0.5 8 0.5Z"
+          fill="white" stroke="#DDE2E5" />
+        <path
+          d="M332 27.08V28C331.999 30.1564 331.301 32.2547 330.009 33.9818C328.718 35.709 326.903 36.9725 324.835 37.5839C322.767 38.1953 320.557 38.1219 318.534 37.3746C316.512 36.6273 314.785 35.2461 313.611 33.4371C312.437 31.628 311.88 29.4881 312.022 27.3363C312.164 25.1846 312.997 23.1363 314.398 21.4971C315.799 19.8578 317.693 18.7154 319.796 18.2401C321.9 17.7649 324.1 17.9823 326.07 18.86"
+          stroke="#374FC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M332 20L322 30.01L319 27.01" stroke="#374FC7" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+
+      <svg width="352" height="58" viewBox="0 0 352 58" fill="none" class="form__icon">
+        <path
+          d="M321.29 19.86L312.82 34C312.645 34.3024 312.553 34.6453 312.552 34.9945C312.551 35.3437 312.641 35.6871 312.814 35.9905C312.987 36.2939 313.237 36.5468 313.538 36.7239C313.839 36.901 314.181 36.9962 314.53 37H331.47C331.819 36.9962 332.161 36.901 332.462 36.7239C332.763 36.5468 333.013 36.2939 333.186 35.9905C333.359 35.6871 333.449 35.3437 333.448 34.9945C333.447 34.6453 333.355 34.3024 333.18 34L324.71 19.86C324.532 19.5661 324.281 19.3231 323.981 19.1545C323.682 18.9859 323.344 18.8973 323 18.8973C322.656 18.8973 322.318 18.9859 322.019 19.1545C321.719 19.3231 321.468 19.5661 321.29 19.86V19.86Z"
+          stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M323 25V29" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M323 32V32.5" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+      </svg>
+    </div>
+  </div>
+
+
+  <div class="form">
+    <label class="form__label">Focus</label>
+    <div class="form__control">
+      <input type="text" placeholder="Filled Input" class="form__input" focus />
+
+      <svg width="350" height="56" viewBox="0 0 350 56" fill="none" class="form__icon">
+        <path
+          d="M8 0.5H342C346.142 0.5 349.5 3.85786 349.5 8V48C349.5 52.1421 346.142 55.5 342 55.5H8C3.85786 55.5 0.5 52.1421 0.5 48V8C0.5 3.85786 3.85786 0.5 8 0.5Z"
+          fill="white" stroke="#DDE2E5" />
+        <path
+          d="M332 27.08V28C331.999 30.1564 331.301 32.2547 330.009 33.9818C328.718 35.709 326.903 36.9725 324.835 37.5839C322.767 38.1953 320.557 38.1219 318.534 37.3746C316.512 36.6273 314.785 35.2461 313.611 33.4371C312.437 31.628 311.88 29.4881 312.022 27.3363C312.164 25.1846 312.997 23.1363 314.398 21.4971C315.799 19.8578 317.693 18.7154 319.796 18.2401C321.9 17.7649 324.1 17.9823 326.07 18.86"
+          stroke="#374FC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M332 20L322 30.01L319 27.01" stroke="#374FC7" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+
+      <svg width="352" height="58" viewBox="0 0 352 58" fill="none" class="form__icon">
+        <path
+          d="M321.29 19.86L312.82 34C312.645 34.3024 312.553 34.6453 312.552 34.9945C312.551 35.3437 312.641 35.6871 312.814 35.9905C312.987 36.2939 313.237 36.5468 313.538 36.7239C313.839 36.901 314.181 36.9962 314.53 37H331.47C331.819 36.9962 332.161 36.901 332.462 36.7239C332.763 36.5468 333.013 36.2939 333.186 35.9905C333.359 35.6871 333.449 35.3437 333.448 34.9945C333.447 34.6453 333.355 34.3024 333.18 34L324.71 19.86C324.532 19.5661 324.281 19.3231 323.981 19.1545C323.682 18.9859 323.344 18.8973 323 18.8973C322.656 18.8973 322.318 18.9859 322.019 19.1545C321.719 19.3231 321.468 19.5661 321.29 19.86V19.86Z"
+          stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M323 25V29" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M323 32V32.5" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+      </svg>
+    </div>
+  </div>
+
+  <div class="form form_success">
+    <label class="form__label">Success</label>
+    <div class="form__control">
+      <input type="text" placeholder="Success" class="form__input" />
+
+      <svg width="350" height="56" viewBox="0 0 350 56" fill="none" class="form__icon form__icon_success">
+        <path
+          d="M8 0.5H342C346.142 0.5 349.5 3.85786 349.5 8V48C349.5 52.1421 346.142 55.5 342 55.5H8C3.85786 55.5 0.5 52.1421 0.5 48V8C0.5 3.85786 3.85786 0.5 8 0.5Z"
+          fill="white" stroke="#DDE2E5" />
+        <path
+          d="M332 27.08V28C331.999 30.1564 331.301 32.2547 330.009 33.9818C328.718 35.709 326.903 36.9725 324.835 37.5839C322.767 38.1953 320.557 38.1219 318.534 37.3746C316.512 36.6273 314.785 35.2461 313.611 33.4371C312.437 31.628 311.88 29.4881 312.022 27.3363C312.164 25.1846 312.997 23.1363 314.398 21.4971C315.799 19.8578 317.693 18.7154 319.796 18.2401C321.9 17.7649 324.1 17.9823 326.07 18.86"
+          stroke="#374FC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M332 20L322 30.01L319 27.01" stroke="#374FC7" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+
+      <svg width="352" height="58" viewBox="0 0 352 58" fill="none" class="form__icon form__icon_error">
+        <path
+          d="M321.29 19.86L312.82 34C312.645 34.3024 312.553 34.6453 312.552 34.9945C312.551 35.3437 312.641 35.6871 312.814 35.9905C312.987 36.2939 313.237 36.5468 313.538 36.7239C313.839 36.901 314.181 36.9962 314.53 37H331.47C331.819 36.9962 332.161 36.901 332.462 36.7239C332.763 36.5468 333.013 36.2939 333.186 35.9905C333.359 35.6871 333.449 35.3437 333.448 34.9945C333.447 34.6453 333.355 34.3024 333.18 34L324.71 19.86C324.532 19.5661 324.281 19.3231 323.981 19.1545C323.682 18.9859 323.344 18.8973 323 18.8973C322.656 18.8973 322.318 18.9859 322.019 19.1545C321.719 19.3231 321.468 19.5661 321.29 19.86V19.86Z"
+          stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M323 25V29" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M323 32V32.5" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+      </svg>
+    </div>
+  </div>
+
+  <div class="form form_invalid ">
+    <label class="form__label">Error</label>
+    <div class="form__control">
+      <input type="text" placeholder="Error" class="form__input" />
+
+      <svg width="350" height="56" viewBox="0 0 350 56" fill="none" class="form__icon form__icon_success">
+        <path
+          d="M8 0.5H342C346.142 0.5 349.5 3.85786 349.5 8V48C349.5 52.1421 346.142 55.5 342 55.5H8C3.85786 55.5 0.5 52.1421 0.5 48V8C0.5 3.85786 3.85786 0.5 8 0.5Z"
+          fill="white" stroke="#DDE2E5" />
+        <path
+          d="M332 27.08V28C331.999 30.1564 331.301 32.2547 330.009 33.9818C328.718 35.709 326.903 36.9725 324.835 37.5839C322.767 38.1953 320.557 38.1219 318.534 37.3746C316.512 36.6273 314.785 35.2461 313.611 33.4371C312.437 31.628 311.88 29.4881 312.022 27.3363C312.164 25.1846 312.997 23.1363 314.398 21.4971C315.799 19.8578 317.693 18.7154 319.796 18.2401C321.9 17.7649 324.1 17.9823 326.07 18.86"
+          stroke="#374FC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M332 20L322 30.01L319 27.01" stroke="#374FC7" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+
+      <svg width="352" height="58" viewBox="0 0 352 58" fill="none" class="form__icon form__icon_error">
+        <path
+          d="M321.29 19.86L312.82 34C312.645 34.3024 312.553 34.6453 312.552 34.9945C312.551 35.3437 312.641 35.6871 312.814 35.9905C312.987 36.2939 313.237 36.5468 313.538 36.7239C313.839 36.901 314.181 36.9962 314.53 37H331.47C331.819 36.9962 332.161 36.901 332.462 36.7239C332.763 36.5468 333.013 36.2939 333.186 35.9905C333.359 35.6871 333.449 35.3437 333.448 34.9945C333.447 34.6453 333.355 34.3024 333.18 34L324.71 19.86C324.532 19.5661 324.281 19.3231 323.981 19.1545C323.682 18.9859 323.344 18.8973 323 18.8973C322.656 18.8973 322.318 18.9859 322.019 19.1545C321.719 19.3231 321.468 19.5661 321.29 19.86V19.86Z"
+          stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M323 25V29" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M323 32V32.5" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+      </svg>
+    </div>
+  </div>
+</body>
+
 </html>
