@@ -1,5 +1,5 @@
 .modal {
-  background-color: #C4C4C4;
+  background-color: rgb(196, 196, 196);
   display: none;
   position: fixed;
   z-index: 1;
