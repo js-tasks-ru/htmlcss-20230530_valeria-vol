@@ -47,7 +47,6 @@
 
 .toggler__input:checked~.toggler__state .toggler__icon {
   color: var(--white);
-  transition: transform 250ms ease;
   transform: translateX(26px);
 }
 
