@@ -48,7 +48,6 @@
 }
 
 .form_success .form__icon_success {
-  fill: var(--primary);
   display: block;
 }
 
@@ -57,7 +56,6 @@
 }
 
 .form_invalid .form__icon_error {
-  fill: var(--error);
   display: block;
 }
 
