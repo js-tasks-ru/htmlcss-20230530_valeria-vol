@@ -16,13 +16,14 @@
 }
 
 .form__control {
-  min-height: 56px;
   display: flex;
   position: relative;
 }
 
 .form__input {
-  min-height: 56px;
+  height: 56px;
+  padding-top: 17px;
+  padding-bottom: 13px;
   padding-left: 24px;
   flex-grow: 1;
   box-sizing: border-box;
@@ -39,11 +40,10 @@
 }
 
 .form__icon {
-  width: 24px;
-  height: 24px;
   position: absolute;
-  top: 18px;
+  top: 50%;
   right: 18px;
+  transform: translateY(-50%);
   display: none;
 }
 
@@ -66,12 +66,11 @@
 }
 
 .form__input::placeholder {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: var(--grey-2);
-
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--grey-2);
 }
 
