@@ -22,11 +22,8 @@
 
 .form__input {
   height: 56px;
-<<<<<<< HEAD
   padding-top: 17px;
   padding-bottom: 13px;
-=======
->>>>>>> master
   padding-left: 24px;
   flex-grow: 1;
   box-sizing: border-box;
