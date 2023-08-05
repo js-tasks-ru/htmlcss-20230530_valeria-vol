@@ -22,6 +22,8 @@
 
 .form__input {
   height: 56px;
+  padding-top: 17px;
+  padding-bottom: 13px;
   padding-left: 24px;
   flex-grow: 1;
   box-sizing: border-box;
